@@ -1,0 +1,37 @@
+{
+    "manifest_version": 1,
+    "short_name": "Restaurant",
+    "name": "Restaurants Review App",
+    "icons": [
+        {
+            "src": "images/icons/hotel-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/icons/hotel-192.ico",
+            "type": "image/ico",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icons/hotel-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "images/icons/hotel-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "web_accessible_resources": [
+        "img/icons/*.png"
+    ],
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#596eb2",
+    "orientation": "portrait",
+    "display": "standalone",
+    "theme_color": "#596eb2"
+    
+}
